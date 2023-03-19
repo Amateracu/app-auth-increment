@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+
+  .main-value {
+    display: flex;
+    align-items: center;
+    .value {
+      font-size: 40px;
+      margin-right: 10px;
+    }
+  }
+}
